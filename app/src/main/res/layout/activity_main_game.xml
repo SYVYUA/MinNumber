@@ -1,9 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#55DFCF"
     tools:context=".MenuGame">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/one"
+            android:text="@string/one"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/two"
+            android:text="@string/two"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/three"
+            android:text="@string/three"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/four"
+            android:text="@string/four"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/five"
+            android:text="@string/five"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/six"
+            android:text="@string/six"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/seven"
+            android:text="@string/seven"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/eight"
+            android:text="@string/eight"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/nine"
+            android:text="@string/nine"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/ten"
+            android:text="@string/ten"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/eleven"
+            android:text="@string/eleven"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/twelve"
+            android:text="@string/twelve"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/thirteen"
+            android:text="@string/thirteen"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/fourteen"
+            android:text="@string/fourteen"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_icon"/>
+
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fifteen"
+                android:text="@string/fifteen"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/sixteen"
+                android:text="@string/sixteen"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/seventeen"
+                android:text="@string/seventeen"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/eighteen"
+                android:text="@string/eighteen"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/nineteen"
+                android:text="@string/nineteen"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/twenty"
+                android:text="@string/twenty"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/twenty_one"
+                android:text="@string/twenty_one"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/level_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
