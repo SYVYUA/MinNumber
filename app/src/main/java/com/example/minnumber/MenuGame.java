@@ -2,8 +2,12 @@ package com.example.minnumber;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+
+import com.example.minnumber.levels.Level_one;
 
 public class MenuGame extends AppCompatActivity {
 
@@ -35,5 +39,14 @@ public class MenuGame extends AppCompatActivity {
         nineteen = findViewById(R.id.nineteen);
         twenty = findViewById(R.id.twenty);
         twenty_one = findViewById(R.id.twenty_one);
+
+        one.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuGame.this, Level_one.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
